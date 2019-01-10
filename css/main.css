@@ -1,0 +1,48 @@
+.main-wrapper{
+    background: url("../img/banner.jpg");
+}
+header nav{
+    background: #ccc;
+    height: 50px;
+}
+header nav ul{
+    list-style: none;
+    margin: 0px;
+}
+header nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    float: right;
+}
+header nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    line-height: inherit;
+    height: inherit;
+    margin-right: 20px;
+}
+header nav ul li.logo{
+    float: left;
+}
+header #banner{
+    background: transparent;
+    height: 600px;
+}
+header #banner h1{
+    margin: 0px;
+}
+header #banner .inner{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    line-height:20px;
+    position: relative;
+    top: 160px;
+}
+button{
+    border: none;
+    background: #333;
+    color: #eee;
+    padding: 10px;
+}
+header #banner .inner .more{}
