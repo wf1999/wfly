@@ -1,5 +1,10 @@
 .main-wrapper{
-    background: url("../img/banner.jpg");
+    background: url("../img/banner.jpg") no-repeat;
+    background-repeat: no-repeat; /* 防止背景图片重复 */
+    background-position: center center; /* 背景图片居中 */
+    background-size: cover; /* 让背景图基于容器大小伸缩 */
+    /* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+    background-attachment: fixed;
 }
 header nav{
     background: #ccc;
@@ -26,7 +31,7 @@ header nav ul li.logo{
 }
 header #banner{
     background: transparent;
-    height: 600px;
+    min-height: 869px;
 }
 header #banner h1{
     margin: 0px;
